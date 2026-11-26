@@ -22,7 +22,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
+                echo 'Running all the tests...'
                 sh 'echo "Tests passed successfully"'
             }
         }
